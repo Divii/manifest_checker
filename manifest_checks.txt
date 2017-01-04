@@ -1,0 +1,37 @@
+PACKAGE_NAME: com.glu.baseball16||VERSION_NAME: 2.2.1||VERSION_CODE: 2212
+TEST_ID C1247||<uses-sdk android:minSdkVersion="11" android:targetSdkVersion="24"/>
+TEST_ID C742||CASE||IHc4U2VRX5dnMmhdOgyPaT5_Encb22vLKVPqTvF4_tsLdXz0CvQoNVocHPCJR6fnc3a9zrDyi3IKaGLoAmZXFM
+TEST_ID C1269||android:versionName="2.2.1"
+TEST_ID C1279||android:versionCode="2212"
+TEST_ID C1278||package="com.glu.baseball16"
+TEST_ID C1270||<supports-screens...android:smallScreens="false".../>
+TEST_ID C1270||<supports-screens...android:normalScreens="true".../>
+TEST_ID C1270||<supports-screens...android:largeScreens="true".../>
+TEST_ID C1270||<supports-screens...android:xlargeScreens="true".../>
+TEST_ID C1270||<supports-screens...android:anyDensity="true".../>
+TEST_ID C1271||<manifest...android:installLocation="auto"...>
+TEST_ID C1272||<uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+OR >   <uses-feature android:glEsVersion="0x00020000"/>
+TEST_ID C1272||ABSENT||<uses-feature android:glEsVersion="0x00020000" android:required="false"/>
+TEST_ID C1273||ABSENT||uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"
+TEST_ID C1274||ABSENT||uses-permission android:name="android.permission.GET_TASKS"
+TEST_ID C1275||android:backupAgent="com.glu.plugins.ajavatools.GluBackupAgent"
+TEST_ID C1276||<uses-feature android:name="android.hardware.touchscreen" android:required="true"/>
+OR >   <uses-feature android:name="android.hardware.touchscreen"/>
+TEST_ID C1276||ABSENT||<uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
+TEST_ID C1277||<uses-feature android:name="android.hardware.touchscreen.multitouch" android:required="false"/>
+TEST_ID C1277||ABSENT||<uses-feature android:name="android.hardware.touchscreen.multitouch" android:required="true"/>
+TEST_ID C1277||ABSENT||<uses-feature android:name="android.hardware.touchscreen.multitouch"/>
+TEST_ID C1466||android:launchMode="singleTask"
+TEST_ID C169763||<application...android:resizeableActivity="false"...>
+TEST_ID C169763||ABSENT||<application...android:resizeableActivity="true"...>
+TEST_ID C40983||ABSENT||<application...android:theme=...>
+TEST_ID C143280||</application></manifest>
+ABSENT||application
+ABSENT||CASE||application
+CASE||aPplication
+CASE||shazbot
+shazbot
+CASE||comment test
+CASE||comment tesT
+comment test
